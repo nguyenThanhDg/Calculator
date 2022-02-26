@@ -36,6 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtKq = new System.Windows.Forms.TextBox();
             this.btnTinh = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -104,11 +105,22 @@
             this.btnTinh.Text = "Tinh";
             this.btnTinh.UseVisualStyleBackColor = true;
             // 
+            // btnTru
+            // 
+            this.btnTru.Location = new System.Drawing.Point(397, 105);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(74, 42);
+            this.btnTru.TabIndex = 3;
+            this.btnTru.Text = "tru";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 256);
+            this.Controls.Add(this.btnTru);
             this.Controls.Add(this.btnTinh);
             this.Controls.Add(this.txtKq);
             this.Controls.Add(this.label4);
@@ -134,6 +146,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtKq;
         private System.Windows.Forms.Button btnTinh;
+        private System.Windows.Forms.Button btnTru;
     }
 }
 
